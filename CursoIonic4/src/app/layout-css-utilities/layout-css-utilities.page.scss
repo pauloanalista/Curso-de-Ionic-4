@@ -1,0 +1,9 @@
+ion-grid{
+    --ion-grid-columns: 13;
+    ion-row{
+        ion-col{
+            background-color: red;
+            margin: 1px;
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "CursoIonic4",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

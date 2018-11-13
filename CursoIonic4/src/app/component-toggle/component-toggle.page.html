@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Toggle
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Abacate</ion-label>
+      <ion-toggle [(ngModel)]="marcado"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Manga</ion-label>
+      <ion-toggle color="danger"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Color</ion-label>
+      <ion-toggle color="dark"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Checked</ion-label>
+      <ion-toggle color="secondary" checked></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Marcado</ion-label>
+      <ion-toggle [(ngModel)]="marcado" color="secondary"></ion-toggle>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

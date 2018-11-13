@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      InfinitScroll
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+  
+  <ion-list>
+    <ion-item *ngFor="let numero of numeros | slice:0:limit">
+      <ion-label color="dark">{{numero}}</ion-label>
+    </ion-item>
+  </ion-list>
+  
+  <ion-infinite-scroll (ionInfinite)="popularInfinite($event)">
+    <ion-infinite-scroll-content></ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+</ion-content>

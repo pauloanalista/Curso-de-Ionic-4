@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Select
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-list-header>Select simples</ion-list-header>
+    <ion-item>
+      <ion-label>Sexo</ion-label>
+      <ion-select placeHolder="Selecione">
+        <ion-select-option value="M">Masculino</ion-select-option>
+        <ion-select-option value="F">Femenino</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Cor</ion-label>
+      <ion-select placeHolder="Selecione" value="blue" okText="Selecionar" cancelText="Cancelar">
+        <ion-select-option value="pink">Rosa</ion-select-option>
+        <ion-select-option value="blue">Azul</ion-select-option>
+        <ion-select-option value="black">Preto</ion-select-option>
+        <ion-select-option value="orange">Laranja</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-list-header>Select Multiplo</ion-list-header>
+    <ion-item>
+      <ion-label>Frutas</ion-label>
+      <ion-select multiple="true" placeHolder="Selecione" value="morango" okText="Selecionar" cancelText="Cancelar">
+        <ion-select-option value="abacaxi">Abacaxi</ion-select-option>
+        <ion-select-option value="morango">Morango</ion-select-option>
+        <ion-select-option value="abacate">Abacate</ion-select-option>
+        <ion-select-option value="manga">Manga</ion-select-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+        <ion-label>Animais</ion-label>
+        <ion-select multiple="true">
+          <ion-select-option value="bird" selected>Passaro</ion-select-option>
+          <ion-select-option value="cat">Gato</ion-select-option>
+          <ion-select-option value="dog" selected>Cachorro</ion-select-option>
+        </ion-select>
+      </ion-item>
+  </ion-list>
+
+  <ion-list>
+      <ion-list-header>Select Customizado</ion-list-header>
+      <ion-item>
+        <ion-label>Alerta</ion-label>
+        <ion-select [interfaceOptions]="customAlertOptions" interface="alert" placeHolder="Selecione" value="morango" okText="Selecionar" cancelText="Cancelar">
+          <ion-select-option value="abacaxi">Abacaxi</ion-select-option>
+          <ion-select-option value="morango">Morango</ion-select-option>
+          <ion-select-option value="abacate">Abacate</ion-select-option>
+          <ion-select-option value="manga">Manga</ion-select-option>
+        </ion-select>
+      </ion-item>
+
+      <ion-item>
+          <ion-label>Popover</ion-label>
+          <ion-select [interfaceOptions]="customPopoverOptions" interface="popover" placeholder="Selecione">
+            <ion-select-option value="brown">Castanho</ion-select-option>
+            <ion-select-option value="black">Preto</ion-select-option>
+            <ion-select-option value="red">Vermelho</ion-select-option>
+          </ion-select>
+        </ion-item>
+
+        <ion-item>
+            <ion-label>Action Sheet</ion-label>
+            <ion-select [interfaceOptions]="customActionSheetOptions" interface="action-sheet" placeholder="Selecione">
+              <ion-select-option value="red">Vermelho</ion-select-option>
+              <ion-select-option value="yellow">Amarelo</ion-select-option>
+              <ion-select-option value="orange">Laranja</ion-select-option>
+              <ion-select-option value="green">Verde</ion-select-option>
+            </ion-select>
+          </ion-item>
+    </ion-list>
+</ion-content>
