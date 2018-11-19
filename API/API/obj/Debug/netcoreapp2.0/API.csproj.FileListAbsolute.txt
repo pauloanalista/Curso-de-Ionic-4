@@ -1,0 +1,11 @@
+C:\_dev\Ionic4\Fontes\API\API\bin\Debug\netcoreapp2.0\API.deps.json
+C:\_dev\Ionic4\Fontes\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.json
+C:\_dev\Ionic4\Fontes\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.dev.json
+C:\_dev\Ionic4\Fontes\API\API\bin\Debug\netcoreapp2.0\API.dll
+C:\_dev\Ionic4\Fontes\API\API\bin\Debug\netcoreapp2.0\API.pdb
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.csprojResolveAssemblyReference.cache
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.csproj.CoreCompileInputs.cache
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfoInputs.cache
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfo.cs
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.dll
+C:\_dev\Ionic4\Fontes\API\API\obj\Debug\netcoreapp2.0\API.pdb
