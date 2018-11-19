@@ -50,8 +50,10 @@ const routes: Routes = [
   { path: 'componentPopover', loadChildren: './component-popover/component-popover.module#ComponentPopoverPageModule' },
   { path: 'componentRefresher', loadChildren: './component-refresher/component-refresher.module#ComponentRefresherPageModule' },
   { path: 'componentSearchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
-  { path: 'apisNativas', loadChildren: './apis-nativas/apis-nativas.module#ApisNativasPageModule' },
   { path: 'componentToggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },
+  { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
+  
+  
   
   
   ];
