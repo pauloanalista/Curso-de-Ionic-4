@@ -52,6 +52,7 @@ const routes: Routes = [
   { path: 'componentSearchbar', loadChildren: './component-searchbar/component-searchbar.module#ComponentSearchbarPageModule' },
   { path: 'componentToggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },
   { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
+  { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
   
   
   

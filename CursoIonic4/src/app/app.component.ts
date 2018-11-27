@@ -17,6 +17,7 @@ export class AppComponent {
     {titulo: "Layout", icone: 'arrow-dropright', url:'/layout'},
     {titulo: "Componentes", icone: 'arrow-dropright', url:'/componentes'},
     {titulo: "Api Externa", icone: 'arrow-dropright', url:'/apiExterna'},
+    {titulo: "Animações", icone: 'arrow-dropright', url:'/animacoes'},
   ];
 
   
