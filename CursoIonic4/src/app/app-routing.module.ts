@@ -53,6 +53,10 @@ const routes: Routes = [
   { path: 'componentToggle', loadChildren: './component-toggle/component-toggle.module#ComponentTogglePageModule' },
   { path: 'apiExterna', loadChildren: './api-externa/api-externa.module#ApiExternaPageModule' },
   { path: 'animacoes', loadChildren: './animacoes/animacoes.module#AnimacoesPageModule' },
+  { path: 'componentesNativos', loadChildren: './componentes-nativos/componentes-nativos.module#ComponentesNativosPageModule' },
+  { path: 'componentNativeCamera', loadChildren: './component-native-camera/component-native-camera.module#ComponentNativeCameraPageModule' },
+  { path: 'componentNativeTextToSpeech', loadChildren: './component-native-text-to-speech/component-native-text-to-speech.module#ComponentNativeTextToSpeechPageModule' },
+  
   
   
   
